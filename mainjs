@@ -1,0 +1,39 @@
+var canvas = document.getElementById("myCanvas");
+ctx = canvas.getContext("2d");
+
+
+ctx.beginPath();
+ctx.strokeStyle - "blue";
+ctx.linewidth = 2;
+ctx.arc(220,200,50,0,2 *Math.PI)
+ctx.Stroke();
+
+ctx.beginPath();
+ctx.strokeStyle - "yellow";
+ctx.linewidth = 2;
+ctx.arc(275,270,50,0,2 *Math.PI)
+ctx.Stroke();
+
+ctx.beginPath();
+ctx.strokeStyle - "black";
+ctx.linewidth = 2;
+ctx.arc(330,200,50,0,2 *Math.PI)
+ctx.Stroke();
+
+ctx.beginPath();
+ctx.strokeStyle - "green";
+ctx.linewidth = 2;
+ctx.arc(387,270,50,0,2 *Math.PI)
+ctx.Stroke();
+
+ctx.beginPath();
+ctx.strokeStyle - "red";
+ctx.linewidth = 2;
+ctx.arc(440,200,50,0,2 *Math.PI)
+ctx.Stroke();
+
+ctx.beginPath();
+ctx.strokeStyle - "blue";
+ctx.linewidth = 2;
+ctx.arc(120,144,430,200);
+ctx.Stroke();
